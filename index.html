@@ -9,34 +9,49 @@
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>  
 </head>
 
 <body>
     <div class="navbar-fixed">
         <nav>
             <div class="nav-wrapper">
-                <a href="#" class="brand-logo">Death By Die Fest</a>
+
+                <a href="#" class="brand-logo"></a>
+                <a href="#" data-target="slide-out" class="rigth sidenav-trigger"><i
+                class="material-icons">menu</i></a>
+
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="#dbd">Death By Die Fest</a></li>
                     <li><a href="#signup">Sign up</a></li>
                     <li><a href="#saw">The S.A.W</a></li>
+                    
                 </ul>
             </div>
         </nav>
+       
     </div>
+    <ul class="sidenav" id="slide-out">
+        <li><img class="sidenavimg" src="./sidenavimg.png" alt=""></li>
+        <li><a href="#dbd">Death By Die Fest</a></li>
+        <li><a href="#signup">Sign up</a></li>
+        <li><a href="#saw">The S.A.W</a></li>
+    </ul>
     <div class="content">
         <div class="row">
             <span class="linkSpacer" id="dbd"></span>
 
             <div class="col s12 center-align">
-                <h1 >Death By Die Fest</h1>
+                <h1>Death By Die Fest</h1>
             </div>
             <div class="col l12 s12 center-align">
                 <img class="responsive-img" class="poster" src="poster.webp" alt="">
             </div>
             <div class="col l6 s12 valign-wrapper">
-                <p</p>
+                <p< /p>
             </div>
         </div>
 
@@ -45,17 +60,18 @@
             <div class="row">
                 <span class="linkSpacer" id="signup"></span>
                 <div class="col s12 center-align">
-                    <h1 >Sign up</h1>
+                    <h1>Sign up</h1>
                 </div>
                 <div class="col l6 s12">
 
                     <iframe
                         src="https://docs.google.com/forms/d/e/1FAIpQLScZ-mNyFXVqvWa9euaVf_p_MzyATvTP6JpJ8aNGQh5v9ROxNw/viewform?embedded=true"
-                        width="640" height="979" frameborder="0" marginheight="0" marginwidth="0">Läser in …</iframe>
+                        width="640" height="979" frameborder="0" marginheight="0" marginwidth="80">Läser in …</iframe>
                     </form>
                 </div>
                 <div class="col l6 s12">
-                    <p>The signup is mostly for planning, the tickets are bought trough the veneu <a href="#">here</a> (You only need a ticket if your playing in the world championship)</p>
+                    <p>The signup is mostly for planning, the tickets are bought trough the veneu <a href="#">here</a>
+                        (You only need a ticket if your playing in the world championship)</p>
                 </div>
             </div>
         </div>
@@ -64,18 +80,57 @@
             <div class="row">
                 <span class="linkSpacer" id="saw"></span>
                 <div class="col s12 center-align">
-                    <h1 >The S.A.W</h1>
+                    <h1>The S.A.W</h1>
                 </div>
                 <div class="col l6 center-align"><img class="responsive-img" class="infoPic" src="pic.webp" /></div>
                 <div class="col l6 s12 center-align">
-                    <p>Skåne alternative wargaming is an association started in 2024 in Malmö. The goal was to create an open and welcoming environment for playing figure games, without being particularly competitive but more focused on socializing and building cool shit</p>
+                    <p>Skåne alternative wargaming is an association started in 2024 in Malmö. The goal was to create an
+                        open and welcoming environment for playing figure games, without being particularly competitive
+                        but more focused on socializing and building cool shit</p>
                 </div>
             </div>
         </div>
     </div>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
 
+
+                <div class="col l6 s12">
+                    <h5 class="white-text">In association with:</h5>
+                    <ul>
+                        <li> <a href="https://ramshacklegames.co.uk/"> <img class="responsive-img"
+                                    src="https://ramshacklegames.co.uk/wp-content/uploads/2018/05/Ramshackle-logo-trans.png" /></a>
+                        </li>
+                        <li> <a href="https://www.planbmalmo.com/"><img class="responsive-img" src="pb.jpeg" /></a></li>
+                        <li> <a><img class="responsive-img"
+                                    src="https://www.hembryggeriet.se/storage/manufacturers/95-4bl6q.webp" /></li></a>
+
+                    </ul>
+                </div>
+
+                <div class="col l2 offset-l4 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="https://discord.gg/Xe8MQBdj">Discord</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Tickets</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © Death By Die
+            </div>
+        </div>
+    </footer>
+    <script>
+        $(document).ready(function () {
+          $(".sidenav").sidenav();
+        });
+      </script>
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 
 </html>
