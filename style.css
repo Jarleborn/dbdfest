@@ -16,8 +16,8 @@ iframe {
 }
 
 .textBox {
-    background-color:#262525 ;
-    padding: 10px;
+    background-color:#262525 !important;
+    padding: 10px !important;
 }
 
 h2 {
