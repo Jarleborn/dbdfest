@@ -1,9 +1,23 @@
+
+  @font-face {
+    font-family: OldeEnglish;
+    src: url(fonts/OldeEnglish.ttf);
+  }
+
 body {
     background-color: black;
     color: white;
     background-image: url('./bak.webp');
     background-size: cover;
     width: auto;
+}
+
+h1 {
+    font-family: OldeEnglish !important;
+}
+
+h2 {
+    margin-top: -13px !important;
 }
 
 iframe {
