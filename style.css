@@ -24,6 +24,11 @@ iframe {
     width: 100%;
 }
 
+.miscImg {
+    max-width: 50% !important;
+    margin-left: 25%;
+}
+
 .sidenav {
     background-color: #262525 !important;
 
