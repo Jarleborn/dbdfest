@@ -24,6 +24,10 @@ iframe {
     width: 100%;
 }
 
+.specialLink {
+    font-family: OldeEnglish !important;
+    font-size: 45px !important;
+}
 .miscImg {
     max-width: 50% !important;
     margin-left: 25%;
