@@ -20,6 +20,11 @@ h2 {
     margin-top: -13px !important;
 }
 
+.ladyInTheFooter {
+    height: 100% !important;
+    max-height: 300px !important;
+}
+
 iframe {
     width: 100%;
 }
@@ -47,10 +52,16 @@ h2 {
     font-size: 24px !important;
 }
 
+.ticketLink {
+    text-decoration: underline;
+}
 
 h3 {
     font-size: 18px !important;
 }
+a {
+    color: white !important;
+    }
 .sidenav li a {
 color: white !important;
 }
